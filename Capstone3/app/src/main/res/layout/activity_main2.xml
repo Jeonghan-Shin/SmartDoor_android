@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/text_Log_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="235dp"
+        android:gravity="center"
+        android:text="@string/log_in"
+        android:textSize="30sp"
+        android:textColor="@android:color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="255dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="315dp"
+            android:layout_marginLeft="45dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/password_bg"
+            android:textColorLink="@android:color/black"
+            android:ems="10" />
+        <ImageButton
+            android:id="@+id/btn_Log_in"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="315dp"
+            android:layout_marginRight="45dp"
+            android:layout_alignParentRight="true"
+            app:srcCompat="@drawable/arrow"
+            android:background="@drawable/arrow_bg"
+            android:scaleType="fitXY"
+            android:onClick="onClick_log_in" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_door"
+        android:icon="@drawable/ic_navigation_door"
+        android:title="@string/title_door" />
+
+    <item
+        android:id="@+id/navigation_box"
+        android:icon="@drawable/ic_navigation_box"
+        android:title="@string/title_box" />
+
+    <item
+        android:id="@+id/navigation_cctv"
+        android:icon="@drawable/ic_navigation_cctv"
+        android:title="@string/title_cctv" />
+
+    <item
+        android:id="@+id/navigation_set"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="@string/title_set" />
+
+</menu>
